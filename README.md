@@ -1,2 +1,2 @@
 # OpenPressing
-Pressing en ligne
+Projet PL/SQL de gestion d'un Pressing CSI3 DLW
