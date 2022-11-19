@@ -25,15 +25,9 @@ PROMPT
 PROMPT ************************************************************************************
 PROMPT ***********************************creation of tables*******************************
 PROMPT ************************************************************************************
-@objects/main
+@Tables/main
 
 
-PROMPT
-PROMPT
- 
-
-@data/main
---@features/main
 SPOOL OFF
 
-SELECT table_name FROM user_tables; 
+
