@@ -1,1 +1,0 @@
-CREATE SEQUENCE seq_Type_Linges;
