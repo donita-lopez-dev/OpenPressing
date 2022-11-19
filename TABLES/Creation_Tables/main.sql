@@ -19,8 +19,6 @@ PROMPT******************** create table Attributs *************************
 
 
 
-
-
 PROMPT******************** create table Besoin_Clients ************
 @Tables/Creation_Tables/table_Besoin_Clients
 
