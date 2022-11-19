@@ -4,110 +4,94 @@ ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY';
 --@sequences/main
 
 
-PROMPT******************** create table pressing ************************************
+PROMPT******************** create table Pressing ************************************
 @Tables/Creation_Tables/table_pressing 
 
-PROMPT******************** create table experience************************************
-@objects/tables/tables_experiences
+PROMPT******************** create table Annonce ************************************
+@Tables/Creation_Tables/table_Annonces
 
 
 
 
-PROMPT******************** create table academical experience*************************
-@objects/tables/tables_academic_exp
-
-
-
-
-
-
-PROMPT******************** create table community experience************
-@objects/tables/tables_community_exp
+PROMPT******************** create table Attributs *************************
+@Tables/Creation_Tables/table_Attributs 
 
 
 
 
 
-@objects/tables/tables_experiences
 
-
-
-PROMPT******************** create table files*************************
-@objects/tables/tables_files
-
+PROMPT******************** create table Besoin_Clients ************
+@Tables/Creation_Tables/table_Besoin_Clients
 
 
 
 
-PROMPT******************** create table hobby*************************
-@objects/tables/tables_hobby
-
-
-
-PROMPT******************** create table hobby_type*******************************
-@objects/tables/tables_hobby_type
+PROMPT******************** create table Chat *************************
+@Tables/Creation_Tables/table_Chat
 
 
 
 
 
-PROMPT******************** create table images*************************
-@objects/tables/tables_images
+PROMPT******************** create table Client *************************
+@Tables/Creation_Tables/table_Client
+
+
+
+PROMPT******************** create table Linges_client *******************************
+@Tables/Creation_Tables/table_Linges_client
 
 
 
 
 
-PROMPT******************** create table info_add*************************
-@objects/tables/tables_info_add
+PROMPT******************** create table Offres *************************
+@Tables/Creation_Tables/table_Offre
 
 
 
 
-PROMPT******************** create table languages**********************
-@objects/tables/tables_language
+
+PROMPT******************** create table Personnes *************************
+@Tables/Creation_Tables/table_Personnes
 
 
 
-PROMPT******************** create table level_project****************************
-@objects/tables/tables_level_project
 
-
-PROMPT******************** create table medias**********************
-@objects/tables/tables_media
-
-
-PROMPT******************** create table other experience******************
-@objects/tables/tables_other_exp
-
-
-PROMPT******************** create table other_files************************
-@objects/tables/tables_other_files
-
-PROMPT******************** create table pdf*********************
-@objects/tables/tables_pdf
-
-PROMPT******************** create table profession	 experience*********************
-@objects/tables/tables_professional_exp
-
-PROMPT******************** create table profiles**********************
-@objects/tables/tables_profile
-
-
-PROMPT******************** create table projects**********************
-@objects/tables/tables_projects
-
-
-PROMPT******************** create table skills**********************
-@objects/tables/tables_skills
+PROMPT******************** create table Personne_Physique **********************
+@Tables/Creation_Tables/table_Personne_Physique
 
 
 
-PROMPT******************** create table users*************************
-@objects/tables/tables_users
+PROMPT******************** create table Privilèges ****************************
+@Tables/Creation_Tables/table_Privilèges
 
-PROMPT******************** create table videos*********************
-@objects/tables/tables_videos
+
+PROMPT******************** create table Prix **********************
+@Tables/Creation_Tables/table_Prix 
+
+
+PROMPT******************** create table Promo ******************
+@Tables/Creation_Tables/table_Promo
+
+
+PROMPT******************** create table Rôle ************************
+@Tables/Creation_Tables/table_Rôle
+
+PROMPT******************** create table Services *********************
+@Tables/Creation_Tables/table_Service
+
+PROMPT******************** create table Type_Linges *********************
+@Tables/Creation_Tables/table_Type_Linges
+
+PROMPT******************** create table Utilisateurs **********************
+@Tables/Creation_Tables/table_Utilisateur
+
+
+PROMPT******************** create table Valeurs_Attributs **********************
+@Tables/Creation_Tables/table_Valeurs_Attributs 
+
 
 
 --add constraints of tables
@@ -115,5 +99,4 @@ PROMPT *************************************************************************
 PROMPT ***********************************creation of tables*******************************
 PROMPT ************************************************************************************
 @Constraint/main
-Footer
-© 2022 GitHub, Inc.
+
