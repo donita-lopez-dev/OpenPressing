@@ -1,0 +1,2 @@
+ALTER TABLE Promo ADD CONSTRAINT FKPromo578451 FOREIGN KEY (OffresId_Offres) REFERENCES Offres (Id_Offres);
+ALTER TABLE Promo ADD CONSTRAINT FKPromo204044 FOREIGN KEY (AnnoncesId_annonces) REFERENCES Annonces (Id_annonces);
